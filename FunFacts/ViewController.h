@@ -13,6 +13,7 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *funFactLabel;
+@property (weak, nonatomic) IBOutlet UILabel *doYouKnowLabel;
 
 @property (strong, nonatomic) FactBook *factBook;
 
